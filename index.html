@@ -22,7 +22,7 @@
             <h1>Find the distance</h1>
             <p>This app hels use you find dictance between two places</p>
             </div>
-            <form id="form" class="form-horizontal row">
+            <form id="form" class="form-horizontal row"  autocomplete="off">
                 <div id="input-1" class="form-group d-flex flex-row col">
                     <label for="from" class="control label pr-3"><i class="far fa-dot-circle"></i> </label>
                         <input type="text" id="from" placeholder="Type Starting" class="col form-control">
@@ -31,23 +31,19 @@
                     <label for="to" class="control label pr-3"><i class="fas fa-map-marker-alt"></i> </label>
                         <input type="text" id="to" placeholder="Type Destination" class="col form-control">
                 </div>
+                
+                <div id="btn-container" class="col-xs-offset-2 col-xs-10 my-3">
+                    <button type="submit" class="btn btn-primary btn-lg" id="btn"><i class="far fa-arrow-alt-circle-right"></i></button>
+    
+                </div>
             </form>
-            <div class="col-xs-offset-2 col-xs-10 my-3">
-                <button class="btn btn-primary btn-lg" id="btn"><i class="far fa-arrow-alt-circle-right"></i></button>
 
-            </div>
-            <div class="container-fluid">
-                <div id="map">
-
-                </div>
-                <div id="output">
-
-                </div>
-            </div>
         </div>
 
+        <div id="map">
+    
+        </div>
     </div>
-
 
     
 <!-- Leaflet library  -->

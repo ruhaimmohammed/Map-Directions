@@ -25,6 +25,9 @@ label{
     font-size: 24px;
 }
 @media only screen and (max-width: 500px){
+    .jumbotron{
+        padding: 10px 0px 0px 0px;
+    }
     .jumbotron h1{
         font-size: 2.2em;
         font-weight: bold;
@@ -33,5 +36,7 @@ label{
     .jumbotron p{
         font-size: 1em;
     }
-
+    #map{
+        border-radius: 0px 0px 10px 10px;
+    }
 }
